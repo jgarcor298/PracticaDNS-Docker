@@ -53,3 +53,9 @@ He creado el fichero y le he puesto la siguiente configuración
 He creado el fichero y le he puesto la siguiente configuración
 
 ![](assets/20251209_004210_image.png)
+
+
+
+Y por ultimo debemos de pasarle los ficheros de configuración al contenedor, para ello he añadido la siguiente configuración al fichero docker-compose.yml
+
+![](assets/20251209_004409_image.png)
