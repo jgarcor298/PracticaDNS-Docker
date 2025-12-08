@@ -1,0 +1,13 @@
+;
+; jorgegarre.test
+;
+$TTL 86400
+@ IN SOA debian.jorgegarre.test. admin.jorgegarre.test. (
+  1 ; Serial ①
+  3600 ; Refresh
+  1800 ; Retry
+  604800 ; Expire
+  86400 ) ; Negative Cache TTL
+;
+@ IN NS debian.jorgegarre.test.
+debian.jorgegarre.test. IN A 172.19.0.2

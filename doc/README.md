@@ -49,3 +49,10 @@ Y lo he configurado de la siguiente forma
 He copiado el fichero del contenedor y le he puesto la siguiente configuración
 
 ![](assets/20251209_002441_image.png)
+
+
+#### 2.4 Fichero jorgegarre.test.dns
+
+He creado el fichero y le he puesto la siguiente configuración
+
+![](assets/20251209_003910_image.png)
