@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bind9:
+    image: ubuntu/bind9:9.16-20.04_beta
+    container_name: dns-server
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      
+    restart: unless-stopped
