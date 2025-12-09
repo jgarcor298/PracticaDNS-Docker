@@ -1,5 +1,5 @@
 acl confiables {
-  172.19.0.1/16;
+  172.19.0.0/24;
 };
 options {
   directory "/var/cache/bind";
@@ -7,7 +7,7 @@ options {
   // 0.0.0.0;
   // };
   allow-transfer { none; }; 
-  listen-on port 53 { 172.19.0.1; }; 
+  listen-on port 53 { any; }; 
   recursion yes; 
   allow-recursion { confiables; }; 
   //========================================================================

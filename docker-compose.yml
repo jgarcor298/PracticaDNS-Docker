@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
   bind9:
     image: ubuntu/bind9:9.16-20.04_beta
@@ -9,9 +7,8 @@ services:
       - "53:53/tcp"
     
     volumes:
-      - ./config/named.conf:/etc/bind/named.conf
       - ./config/named.conf.options:/etc/bind/named.conf.options
       - ./config/named.conf.local:/etc/bind/named.conf.local
       - ./config/zones:/var/lib/bind
-      
+    
     restart: unless-stopped
